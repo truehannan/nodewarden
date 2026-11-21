@@ -32,9 +32,9 @@ binding = "ATTACHMENTS"
 bucket_name = "nodewarden-attachments"
 
 [[migrations]]
-tag = "v1-notifications-hub"
+tag = "v3-notifications-hub"
 new_sqlite_classes = [ "NotificationsHub" ]
 
 [[migrations]]
-tag = "v2-backup-transfer-runner"
+tag = "v4-backup-transfer-runner"
 new_sqlite_classes = [ "BackupTransferRunner" ]
